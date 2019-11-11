@@ -1,0 +1,14 @@
+<h1>Hello Answer</h1>
+<%# doesn't print %>
+<%#= does print with equal sign %>
+<div class="banner">
+  <div class="card">
+    <h2 class="me"> <%= @question%> </h2>
+    <strong>- Me</strong>
+  </div>
+  <div class="card">
+    <h2 class="coach"> <%= @response%> </h2>
+    <strong>- Coach</strong>
+  </div>
+</div>
+<%= link_to "Ask a new question",  "/ask" %>
